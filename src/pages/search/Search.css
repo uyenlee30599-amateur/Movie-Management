@@ -1,0 +1,9 @@
+.search {
+	min-height: 100vh;
+	background-color: #141414;
+	padding-bottom: 60px;
+}
+
+.search__content {
+	padding: 130px 20px 40px;
+}

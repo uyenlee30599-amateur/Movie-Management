@@ -1,0 +1,45 @@
+.movieList {
+	margin-left: 36px;
+	margin-bottom: 2.5rem;
+	color: #fff;
+}
+
+.movieList__title {
+	font-size: 1.15rem;
+	font-weight: 700;
+	margin-bottom: 0.6rem;
+}
+
+.movieList__row {
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding: 8px 0 16px 0;
+	gap: 8px;
+}
+
+.movieList__poster {
+	height: 100px;
+	object-fit: cover;
+	width: 180px;
+	border-radius: 4px;
+	margin-right: 8px;
+	cursor: pointer;
+	transition: transform 450ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	flex-shrink: 0;
+}
+
+.movieList__poster:hover {
+	transform: scale(1.09);
+	z-index: 5;
+}
+
+.movieList__poster--large {
+	height: 260px;
+	width: 175px;
+	object-fit: cover;
+}
+
+.movieList__poster--large:hover {
+	transform: scale(1.06);
+}

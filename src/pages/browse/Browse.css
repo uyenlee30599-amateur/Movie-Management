@@ -1,0 +1,17 @@
+.browse {
+	min-height: 100vh;
+	background-color: #141414;
+	padding-bottom: 60px;
+}
+
+.browse__lists {
+	margin-top: -80px;
+	position: relative;
+	z-index: 3;
+}
+
+@media (max-width: 600px) {
+	.browse__lists {
+		margin-top: -40px;
+	}
+}

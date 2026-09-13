@@ -1,0 +1,35 @@
+.resultList {
+	max-width: 1200px;
+	margin: 40px auto 0;
+	padding: 0 36px;
+	color: #fff;
+}
+
+.resultList__title {
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.resultList__empty {
+	color: #aaa;
+}
+
+.resultList__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	gap: 18px;
+}
+
+.resultList__poster {
+	width: 100%;
+	border-radius: 4px;
+	cursor: pointer;
+	display: block;
+	transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.resultList__poster:hover {
+	transform: scale(1.05);
+	box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+}
